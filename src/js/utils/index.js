@@ -1,8 +1,4 @@
-import { renderElement } from './renderElement'
-import { isObject, uid } from './tools'
+import { renderElement } from "./renderElement";
+import { isObject, uid } from "./tools";
 
-export {
-	uid,
-	isObject,
-	renderElement
-}
+export { uid, isObject, renderElement };

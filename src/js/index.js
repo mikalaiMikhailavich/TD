@@ -1,9 +1,9 @@
-import { createAppComponent } from './app'
-import { initStore, saveInStorage } from './services/dataApi'
+import { createAppComponent } from "./app";
+import { initStore, saveInStorage } from "./services/dataApi";
 
-initStore()
+initStore();
 
-const appComponent = createAppComponent()
-root.append(appComponent)
+const appComponent = createAppComponent();
+root.append(appComponent);
 
-window.addEventListener('beforeunload', () => saveInStorage())
+window.addEventListener("beforeunload", () => saveInStorage());
