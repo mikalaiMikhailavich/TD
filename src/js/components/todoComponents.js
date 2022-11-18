@@ -6,8 +6,8 @@ import { createDataContainerComponent } from "./dataContainer";
 import { createTodoItemComponent } from "./todoItem";
 
 export {
-  createDeleteFormComponent,
   createAddFormComponent,
+  createDeleteFormComponent,
   createCounterComponent,
   createFilterFormComponent,
   createDataContainerComponent,
